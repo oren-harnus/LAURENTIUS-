@@ -1,0 +1,45 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package halo.semarang;
+
+/**
+ *
+ * @author ASUS
+ */
+public class HaloSemarang {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
+    public class Halo {
+
+    // Atribut kelas
+    private String pesan;
+
+    // Konstruktor kelas
+    public Halo(String pesan) {
+        this.pesan = pesan;
+    }
+
+    // Metode untuk mencetak pesan
+    public void cetakPesan() {
+        System.out.println(pesan);
+    }
+
+    public static void main(String[] args) {
+        // Membuat objek dari kelas Halo
+        Halo haloObjek = new Halo("Halo Semarang");
+
+        // Memanggil metode cetakPesan untuk mencetak pesan
+        haloObjek.cetakPesan();
+    }
+}
+
+
+
+}
